@@ -3,3 +3,4 @@ flask
 google
 googlesearch-python
 nltk
+gunicorn
