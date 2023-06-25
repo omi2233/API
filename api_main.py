@@ -23,7 +23,7 @@ except FileNotFoundError:
 def perform_search(query):
     try:
         print('\nSearching web .........\n\n')
-        results = list(search(query, num_results=6))
+        results = list(search(query))
         return results
     except Exception as e:
         print("An error occurred during the search:", e)
